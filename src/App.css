@@ -1,0 +1,13 @@
+.gradient-border-bg {
+  background: linear-gradient(45deg, slateblue, coral) border-box;
+  border: 3px solid transparent;
+  border-radius: 50px;
+}
+
+.scrollable::-webkit-scrollbar{
+  display: none; /* for chrome,edge, safari, opera */
+}
+
+.scrollable{
+  scrollbar-width:none; /* for mozila firfox */
+}
